@@ -25,7 +25,15 @@
   @apply text-blue-700 hover:underline;
 }
 
-.markdown code {
+.markdown pre {
+  @apply p-6 overflow-x-auto text-left bg-gray-800 rounded-lg;
+}
+
+.markdown pre code {
+  @apply font-mono text-base text-gray-100;
+}
+
+.markdown p code {
   @apply font-mono bg-gray-200 px-1;
 }
 
