@@ -12,14 +12,16 @@ export default function PostHeader({ title, category, timeComplexity }) {
           <strong>Category: </strong>
           {category}
         </p>
-        <p className="text-2xl">
-          <strong>Time Complexity: </strong>
 
-          <span>
-            {timeComplexity.normal}
-            <sup>{timeComplexity.sup}</sup>
-          </span>
-        </p>
+        {timeComplexity && (
+          <p className="text-2xl">
+            <strong>Time Complexity: </strong>
+            <span>
+              {timeComplexity.normal}
+              <sup>{timeComplexity.sup}</sup>
+            </span>
+          </p>
+        )}
       </div>
     </>
   );

@@ -6,6 +6,8 @@ export default function AlgorithmCard({
   timeComplexity,
   slug,
 }) {
+  const isTimeComplexityExist = Object.entries(timeComplexity).length !== 0;
+
   return (
     <Link href={`/posts/${slug}`}>
       <article className="flex flex-col justify-between bg-white-smoke p-9 rounded-3xl group hover:cursor-pointer">
@@ -20,11 +22,14 @@ export default function AlgorithmCard({
             <strong>Category: </strong>
             {category}
           </p>
-          <p className="sm:text-lg">
-            <strong>Time Complexity: </strong>
-            {timeComplexity.normal}
-            <sup>{timeComplexity.sup}</sup>
-          </p>
+
+          {isTimeComplexityExist && (
+            <p className="sm:text-lg">
+              <strong>Time Complexity: </strong>
+              {timeComplexity.normal}
+              <sup>{timeComplexity.sup}</sup>
+            </p>
+          )}
         </footer>
       </article>
     </Link>
