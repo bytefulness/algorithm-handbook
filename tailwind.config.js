@@ -1,7 +1,10 @@
 module.exports = {
-  content: ["./components/**/*.js", "./pages/**/*.js"],
+  content: ["./components/**/*.{js,jsx}", "./pages/**/*.{js,jsx}"],
   theme: {
     extend: {
+      colors: {
+        "white-smoke": "#F4F5F9",
+      },
       spacing: {
         28: "7rem",
       },
