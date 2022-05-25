@@ -6,13 +6,34 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6;
+  @apply my-6 text-lg leading-relaxed text-gray-700;
+}
+
+.markdown img {
+  @apply mx-auto;
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply text-4xl tracking-tight font-bold mt-12 mb-4 leading-snug;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-2xl font-bold mt-8 mb-4 leading-snug;
+}
+
+.markdown a {
+  @apply text-blue-700 hover:underline;
+}
+
+.markdown code {
+  @apply font-mono bg-gray-200 px-1;
+}
+
+.markdown table {
+  @apply border-collapse mx-auto;
+}
+
+.markdown table td,
+.markdown table th {
+  @apply px-6 py-4 text-left border border-gray-200;
 }
