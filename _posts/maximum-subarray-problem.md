@@ -1,6 +1,6 @@
 ---
 title: "Maximum Subarray Problem"
-category: "Brute Force"
+category: "Divide And Conquer"
 timeComplexity:
   normal: n
   sub: 2
