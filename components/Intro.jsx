@@ -6,16 +6,17 @@ export default function Intro() {
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight mb-4">
         {CMS_NAME}
       </h1>
-      <h4 className="text-xl md:text-2xl md:leading-9 font-light text-gray-500">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias possimus
-        facilis eveniet consequatur nam nulla nostrum dolorem voluptatem.
-        Delectus optio alias, quo sequi consectetur possimus. Consectetur
-        impedit libero aliquid, voluptates fugiat nostrum sed recusandae totam
-        ducimus! Autem et similique atque quod laborum dolore facilis recusandae
-        suscipit quaerat cupiditate voluptas quia dignissimos reprehenderit
-        natus sapiente eius est facere, placeat iusto amet corporis tempore
-        harum aliquid.
-      </h4>
+      <p className="text-xl md:text-2xl md:leading-9 font-light text-gray-500 mb-4">
+        Algorithm Handbook is an overview to the most popular algorithms. You
+        can find in this page algorithms descriptions, basic visualizations and
+        code examples.
+      </p>
+
+      <p className="text-xl md:text-2xl md:leading-9 font-light text-gray-500 mb-4">
+        This project was developed as an Algorithm Design and Analysis course
+        term project. I would like to thank Vahide Bulut for giving me the
+        opportunity to develop this project.
+      </p>
     </section>
   );
 }
