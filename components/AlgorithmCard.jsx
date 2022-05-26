@@ -18,10 +18,12 @@ export default function AlgorithmCard({
         </header>
 
         <footer>
-          <p className="sm:text-lg mb-2">
-            <strong>Category: </strong>
-            {category}
-          </p>
+          {category && (
+            <p className="sm:text-lg mb-2">
+              <strong>Category: </strong>
+              {category}
+            </p>
+          )}
 
           {isTimeComplexityExist && (
             <p className="sm:text-lg">
