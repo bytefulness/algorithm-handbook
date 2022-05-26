@@ -38,10 +38,10 @@
 }
 
 .markdown table {
-  @apply border-collapse mx-auto;
+  @apply block w-max max-w-full mx-auto overflow-auto;
 }
 
 .markdown table td,
 .markdown table th {
-  @apply px-6 py-4 text-left border border-gray-200;
+  @apply p-3 md:px-6 md:py-4 text-left border border-gray-200;
 }
