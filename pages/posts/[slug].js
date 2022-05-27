@@ -35,6 +35,7 @@ export default function Post({ post }) {
               <PostHeader
                 title={post.title}
                 category={post.category}
+                algorithmUrl={post.algorithmUrl}
                 timeComplexity={post.timeComplexity}
               />
               <PostBody content={post.content} />
@@ -50,6 +51,7 @@ export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, [
     "title",
     "category",
+    "algorithmUrl",
     "timeComplexity",
     "date",
     "slug",
