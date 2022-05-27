@@ -1,6 +1,7 @@
 ---
 title: "Longest Increasing Subsequence"
 category: "Dynamic Programming"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/dpLongestIncreasingSubsequence.js"
 timeComplexity:
   normal: O(n * n)
 ---

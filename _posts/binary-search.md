@@ -1,6 +1,7 @@
 ---
 title: "Binary Search"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/binarySearch.js"
 timeComplexity:
   normal: log(n)
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Fast Powering Algorithm"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/fastPowering.js"
 timeComplexity:
   normal: log(n)
 ---

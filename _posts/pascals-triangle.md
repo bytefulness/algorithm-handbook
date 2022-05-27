@@ -1,6 +1,7 @@
 ---
 title: "Pascal's Triangle"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/pascalTriangle.js"
 timeComplexity:
   normal: O(1)
 ---

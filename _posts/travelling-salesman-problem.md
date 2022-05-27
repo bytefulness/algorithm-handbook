@@ -1,5 +1,6 @@
 ---
 title: "Travelling Salesman Problem"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/bfTravellingSalesman.js"
 category: "Brute Force"
 timeComplexity:
   normal: n!

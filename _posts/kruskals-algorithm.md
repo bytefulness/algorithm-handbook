@@ -1,5 +1,6 @@
 ---
 title: "Kruskal's Algorithm"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/kruskal.js"
 category: "Greedy"
 ---
 

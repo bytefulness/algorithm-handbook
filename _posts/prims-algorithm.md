@@ -1,5 +1,6 @@
 ---
 title: "Prim's Algorithm"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/prim.js"
 category: "Greedy"
 ---
 

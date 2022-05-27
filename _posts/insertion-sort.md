@@ -1,6 +1,7 @@
 ---
 title: "Insertion Sort"
 category: "Sorting"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/InsertionSort.js"
 timeComplexity:
   normal: n
   sup: 2

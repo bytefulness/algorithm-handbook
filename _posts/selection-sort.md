@@ -1,6 +1,7 @@
 ---
 title: "Selection Sort"
 category: "Brute Force"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/SelectionSort.js"
 timeComplexity:
   normal: n
   sup: 2

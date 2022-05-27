@@ -1,6 +1,7 @@
 ---
 title: "Quick Sort"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/QuickSort.js"
 timeComplexity:
   normal: n
   sup: 2

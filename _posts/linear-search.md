@@ -1,6 +1,7 @@
 ---
 title: "Linear Search"
 category: "Brute Force"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/linearSearch.js"
 timeComplexity:
   normal: O(n)
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Longest Common Subsequence (LCS)"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/longestCommonSubsequence.js"
 category: "Dynamic Programming"
 ---
 

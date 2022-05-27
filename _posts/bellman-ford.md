@@ -1,6 +1,7 @@
 ---
 title: "Bellman–Ford Algorithm"
 category: "Dynamic Programming"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/bellmanFord.js"
 timeComplexity:
   normal: O(|V||E|)
 ---

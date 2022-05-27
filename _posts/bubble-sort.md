@@ -1,6 +1,7 @@
 ---
 title: "Buble Sort"
 category: "Brute Force"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/BubbleSort.js"
 timeComplexity:
   normal: n
   sup: 2

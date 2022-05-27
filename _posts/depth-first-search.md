@@ -1,6 +1,7 @@
 ---
 title: "Depth First Search"
 category: "Graphs"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/depthFirstSearch.js"
 timeComplexity:
   normal: O(V + E)
 ---

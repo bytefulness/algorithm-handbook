@@ -1,5 +1,6 @@
 ---
 title: "Fibonacci Number"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/fibonacci.js"
 category: "Dynamic Programming"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Interpolation Search"
 category: "Searching"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/interpolationSearch.js"
 timeComplexity:
   normal: O(log(log(n))
 ---

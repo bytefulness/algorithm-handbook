@@ -1,6 +1,7 @@
 ---
 title: "Tower of Hanoi"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/hanoiTower.js"
 timeComplexity:
   normal: 2
   sup: n

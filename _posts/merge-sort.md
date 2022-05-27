@@ -1,6 +1,7 @@
 ---
 title: "Merge Sort"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/MergeSort.js"
 timeComplexity:
   normal: n log(n)
 ---

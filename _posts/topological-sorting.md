@@ -1,5 +1,6 @@
 ---
 title: "Topological Sorting"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/topologicalSort.js"
 category: "Decrease And Conquer"
 ---
 

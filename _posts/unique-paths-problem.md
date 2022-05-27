@@ -1,5 +1,6 @@
 ---
 title: "Unique Paths Problem"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/dpUniquePaths.js"
 category: "Dynamic Programming"
 ---
 

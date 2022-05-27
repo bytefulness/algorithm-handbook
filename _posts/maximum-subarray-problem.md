@@ -1,6 +1,7 @@
 ---
 title: "Maximum Subarray Problem"
 category: "Divide and Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/bfMaximumSubarray.js"
 timeComplexity:
   normal: n
   sub: 2

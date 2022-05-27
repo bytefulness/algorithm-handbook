@@ -1,6 +1,7 @@
 ---
 title: "Breath First Search"
 category: "Graphs"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/breadthFirstSearch.js"
 timeComplexity:
   normal: O(V + E)
 ---

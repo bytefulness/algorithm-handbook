@@ -1,5 +1,6 @@
 ---
 title: "Longest Common Substring Problem"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/longestCommonSubstring.js"
 category: "Dynamic Programming"
 ---
 

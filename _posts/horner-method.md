@@ -1,6 +1,7 @@
 ---
 title: "Horner's Method"
 category: "Transform And Conquer"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/hornerMethod.js"
 timeComplexity:
   normal: O(n)
 ---

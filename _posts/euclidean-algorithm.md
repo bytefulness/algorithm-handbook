@@ -1,5 +1,6 @@
 ---
 title: "Euclidean algorithm"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/euclideanAlgorithm.js"
 category: "Divide and Conquer"
 ---
 

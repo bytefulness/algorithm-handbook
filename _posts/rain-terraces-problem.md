@@ -1,6 +1,7 @@
 ---
 title: "Rain Terraces Problem"
 category: "Brute Force"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/bfRainTerraces.js"
 timeComplexity:
   normal: O(n)
 ---

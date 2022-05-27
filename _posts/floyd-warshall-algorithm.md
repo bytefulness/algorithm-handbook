@@ -1,6 +1,7 @@
 ---
 title: "Floyd–Warshall Algorithm"
 category: "Dynamic Programming"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/floydWarshall.js"
 timeComplexity:
   normal: O(|V|^3)
 ---

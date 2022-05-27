@@ -1,5 +1,6 @@
 ---
 title: "Shortest Common Supersequence"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/shortestCommonSupersequence.js"
 category: "Dynamic Programming"
 ---
 

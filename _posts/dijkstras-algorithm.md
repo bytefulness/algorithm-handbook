@@ -1,5 +1,6 @@
 ---
 title: "Dijkstra Algorithm"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/dijkstra.js"
 category: "Greedy"
 ---
 

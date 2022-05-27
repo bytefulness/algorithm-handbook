@@ -1,6 +1,7 @@
 ---
 title: "Knapsack Problem"
 category: "Brute Force"
+algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/Knapsack.js"
 timeComplexity:
   normal: 2
   sup: n
