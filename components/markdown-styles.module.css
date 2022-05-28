@@ -10,7 +10,7 @@
 }
 
 .markdown img {
-  @apply mx-auto;
+  @apply mx-auto max-w-xl;
 }
 
 .markdown h2 {
@@ -44,4 +44,24 @@
 .markdown table td,
 .markdown table th {
   @apply p-3 md:px-6 md:py-4 text-left border border-gray-200;
+}
+
+.markdown blockquote {
+  @apply relative px-4 bg-blue-50 overflow-auto;
+}
+
+.markdown blockquote::before {
+  @apply content-[''] absolute inset-0 w-2 h-full bg-blue-500;
+}
+
+.markdown blockquote p {
+  @apply text-blue-600;
+}
+
+.markdown ul {
+  @apply list-disc text-left w-2/3 mx-auto;
+}
+
+.markdown ol {
+  @apply list-decimal text-left w-2/3 mx-auto;
 }
