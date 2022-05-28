@@ -2,6 +2,8 @@
 title: "Prim's Algorithm"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/prim.js"
 category: "Greedy"
+timeComplexity:
+  normal: O(E log V)
 ---
 
 # Prim's Algorithm
@@ -44,6 +46,18 @@ to its length.
 This figure shows there may be more than one minimum spanning
 tree in a graph. In the figure, the two trees below the graph
 are two possibilities of minimum spanning tree of the given graph.
+
+## Pseduocode
+
+```
+T = ∅;
+U = { 1 };
+while (U ≠ V)
+    let (u, v) be the lowest cost edge such that u ∈ U and v ∈ V - U;
+    T = T ∪ {(u, v)}
+    U = U ∪ {v}
+
+```
 
 ## References
 

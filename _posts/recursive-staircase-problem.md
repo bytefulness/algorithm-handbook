@@ -16,10 +16,14 @@ There are `n` stairs, a person standing at the bottom wants to reach the top. Th
 
 This is an interesting problem because there are several ways of how it may be solved that illustrate different programming paradigms.
 
-- [Brute Force Recursive Solution](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseBF.js) - Time: `O(2^n)`; Space: `O(1)`
-- [Recursive Solution With Memoization](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseMEM.js) - Time: `O(n)`; Space: `O(n)`
-- [Dynamic Programming Solution](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseDP.js) - Time: `O(n)`; Space: `O(n)`
-- [Iterative Solution](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseIT.js) - Time: `O(n)`; Space: `O(1)`
+## Complexity
+
+| Name                                    | Time complexity | Space complexity | Algorithm Link                                                                                                            |
+| --------------------------------------- | :-------------: | :--------------: | ------------------------------------------------------------------------------------------------------------------------- |
+| **Brute Force Recursive Solution**      |     O(2^n^)     |      `O(1)`      | [Brute Force Recursive Solution](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseBF.js)       |
+| **Recursive Solution With Memoization** |     `O(n)`      |      `O(n)`      | [Recursive Solution With Memoization](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseMEM.js) |
+| **Dynamic Programming Solution**        |     `O(n)`      |      `O(n)`      | [Dynamic Programming Solution](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseDP.js)         |
+| **Iterative Solution**                  |     `O(n)`      |      `O(1)`      | [Iterative Solution](https://github.com/eakyel/javascript-algorithms/blob/main/recursiveStaircaseIT.js)                   |
 
 ## References
 

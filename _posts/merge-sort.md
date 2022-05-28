@@ -28,6 +28,18 @@ emulate merge sort (top-down).
 
 ![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
 
+## Pseduocode
+
+```
+MergeSort(A, p, r):
+    if p > r
+        return
+    q = (p+r)/2
+    mergeSort(A, p, q)
+    mergeSort(A, q+1, r)
+    merge(A, p, q, r)
+```
+
 ## Complexity
 
 | Name           |     Best      |    Average    |     Worst     |

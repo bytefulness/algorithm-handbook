@@ -2,6 +2,8 @@
 title: "Unique Paths Problem"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/dpUniquePaths.js"
 category: "Dynamic Programming"
+timeComplexity:
+  normal: O(m*n)
 ---
 
 A robot is located at the top-left corner of a `m x n` grid

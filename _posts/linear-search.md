@@ -15,10 +15,28 @@ comparisons, where `n` is the length of the list.
 
 ![Linear Search](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 
+## Pseudocode
+
+```
+Begin
+for i = 0 to (n - 1) by 1 do
+if (a[i] = item) then
+set loc = i
+Exit
+endif
+endfor
+set loc = -1
+End
+```
+
 ## Complexity
 
 **Time Complexity**: `O(n)` - since in worst case we're checking each element
 exactly once.
+
+| Name              | Best | Average | Worst |
+| ----------------- | :--: | :-----: | :---: |
+| **Linear Search** | O(1) |  O(n)   | O(n)  |
 
 ## References
 

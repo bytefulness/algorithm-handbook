@@ -2,6 +2,8 @@
 title: "Shortest Common Supersequence"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/shortestCommonSupersequence.js"
 category: "Dynamic Programming"
+timeComplexity:
+  normal: O(X*Y)
 ---
 
 The longest increas# Shortest Common Supersequence

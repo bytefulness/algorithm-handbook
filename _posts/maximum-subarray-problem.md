@@ -24,11 +24,43 @@ with `0`. For example, for the array of
 values `−2, 1, −3, 4, −1, 2, 1, −5, 4` the contiguous subarray
 with the largest sum is `4, −1, 2, 1`, with sum `6`.
 
-## Solutions
+## Pseudocode for Divide and Conquer Approach for Solution
 
-- Brute Force solution O(n^2^) [![Edit maximum-subarray-brute-force](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/heuristic-elgamal-vt9w44?fontsize=14&hidenavigation=1&theme=dark)
-- Divide and Conquer solution O(n^2^) [![Edit maximum-subarray-divide-and-counquer](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/brave-rgb-6invjv?fontsize=14&hidenavigation=1&theme=dark)
-- Dynamic Programming solution O(n) [![Edit compassionate-flower-vrypke](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/compassionate-flower-vrypke?fontsize=14&hidenavigation=1&theme=dark)
+```
+#First Part
+maxSubarray(array)
+  if start = end
+    return array[start]
+  else
+    middle = (start + end) / 2
+    return max(maxSubarray(array(From start to middle)), maxSubarray(array(From middle + 1 to end)), maxCrossover(array))
+
+
+
+#Second Part
+maxCrossover(array)
+  currentLeftSum = 0
+      leftSum = 0
+  currentRightSum = 0
+      rightSum = 0
+  for i in array
+    currentLeftSum += array[i]
+    if currentLeftSum > leftSum
+      leftSum = currentLeftSum
+  for i in array
+    currentRightSum += array[i]
+    if currentRightSum > rightSum
+      rightSum = currentRightSum
+  return leftSum + rightSum
+```
+
+## Solutions & Complexity
+
+| Name                             | Time complexity | Algorithm Link                                                                                           |
+| -------------------------------- | :-------------: | -------------------------------------------------------------------------------------------------------- |
+| **Brute Force solution**         |     O(2^n^)     | [Brute Force](https://github.com/eakyel/javascript-algorithms/blob/main/bfMaximumSubarray.js)            |
+| **Divide and Conquer solution**  |     O(2^n^)     | [Divide and Conquer](https://github.com/eakyel/javascript-algorithms/blob/main/dcMaximumSubarraySum.js)  |
+| **Dynamic Programming Solution** |     `O(n)`      | [Dynamic Programming](https://github.com/eakyel/javascript-algorithms/blob/main/dpMaximumSubarraySum.js) |
 
 ## References
 

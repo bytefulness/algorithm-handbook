@@ -2,6 +2,8 @@
 title: "Dijkstra Algorithm"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/dijkstra.js"
 category: "Greedy"
+timeComplexity:
+  normal: O(E Log V)
 ---
 
 Dijkstra's algorithm is an algorithm for finding the shortest
@@ -21,6 +23,26 @@ It picks the unvisited vertex with the lowest distance,
 calculates the distance through it to each unvisited neighbor,
 and updates the neighbor's distance if smaller. Mark visited
 (set to red) when done with neighbors.
+
+## Pseudocode
+
+```
+function dijkstra(G, S)
+    for each vertex V in G
+        distance[V] <- infinite
+        previous[V] <- NULL
+        If V != S, add V to Priority Queue Q
+    distance[S] <- 0
+
+    while Q IS NOT EMPTY
+        U <- Extract MIN from Q
+        for each unvisited neighbour V of U
+            tempDistance <- distance[U] + edge_weight(U, V)
+            if tempDistance < distance[V]
+                distance[V] <- tempDistance
+                previous[V] <- U
+    return distance[], previous[]
+```
 
 ## References
 

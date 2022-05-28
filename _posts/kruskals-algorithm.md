@@ -2,6 +2,8 @@
 title: "Kruskal's Algorithm"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/kruskal.js"
 category: "Greedy"
+timeComplexity:
+  normal: O(E log E)
 ---
 
 Kruskal's algorithm is a minimum-spanning-tree algorithm which
@@ -44,6 +46,20 @@ to its length.
 This figure shows there may be more than one minimum spanning
 tree in a graph. In the figure, the two trees below the graph
 are two possibilities of minimum spanning tree of the given graph.
+
+## Pseudocode
+
+```
+KRUSKAL(G):
+A = ∅
+For each vertex v ∈ G.V:
+    MAKE-SET(v)
+For each edge (u, v) ∈ G.E ordered by increasing order by weight(u, v):
+    if FIND-SET(u) ≠ FIND-SET(v):
+    A = A ∪ {(u, v)}
+    UNION(u, v)
+return A
+```
 
 ## References
 

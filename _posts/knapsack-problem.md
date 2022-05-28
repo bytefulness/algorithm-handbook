@@ -60,10 +60,6 @@ maximize ![unbounded knapsack](https://wikimedia.org/api/rest_v1/media/math/rend
 subject to ![unbounded knapsack](https://wikimedia.org/api/rest_v1/media/math/render/svg/dd6e7c9bca4397980976ea6d19237500ce3b8176)
 and ![unbounded knapsack](https://wikimedia.org/api/rest_v1/media/math/render/svg/90a99710f61d5dea19e49ae5b31164d2b56b07e3)
 
-## IMPLEMENTATION
-
-![](/images/brute-force/knapsack-problem/code.png)
-
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Knapsack_problem)

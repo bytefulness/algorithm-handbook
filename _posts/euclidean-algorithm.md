@@ -2,6 +2,8 @@
 title: "Euclidean algorithm"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/euclideanAlgorithm.js"
 category: "Divide and Conquer"
+timeComplexity:
+  normal: O(a+b)
 ---
 
 In mathematics, the Euclidean algorithm, or Euclid's algorithm,
@@ -55,6 +57,18 @@ Squares of size `462×462` are placed within it leaving a
 squares until a `21×147` rectangle is left, which in turn is
 tiled with `21×21` squares, leaving no uncovered area.
 The smallest square size, `21`, is the GCD of `1071` and `462`.
+
+## Pseudocode
+
+```
+def gcd(a, b):
+    if a == b:
+        return a
+    if a > b:
+        gcd(a - b, b)
+    else:
+        gcd(a, b - a)
+```
 
 ## References
 

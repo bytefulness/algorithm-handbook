@@ -2,6 +2,8 @@
 title: "Longest Common Substring Problem"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/longestCommonSubstring.js"
 category: "Dynamic Programming"
+timeComplexity:
+  normal: O(n * m)
 ---
 
 The longest common substring problem is to find the longest string

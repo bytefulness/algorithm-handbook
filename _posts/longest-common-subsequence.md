@@ -2,6 +2,8 @@
 title: "Longest Common Subsequence (LCS)"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/longestCommonSubsequence.js"
 category: "Dynamic Programming"
+timeComplexity:
+  normal: O(n * m)
 ---
 
 The longest common subsequence (LCS) problem is the problem of finding
@@ -20,8 +22,28 @@ made to a revision-controlled collection of files.
 
 ## Example
 
-- LCS for input Sequences `ABCDGH` and `AEDFHR` is `ADH` of length 3.
-- LCS for input Sequences `AGGTAB` and `GXTXAYB` is `GTAB` of length 4.
+LCS for input Sequences `ABCDGH` and `AEDFHR` is `ADH` of length 3.
+
+LCS for input Sequences `AGGTAB` and `GXTXAYB` is `GTAB` of length 4.
+
+## Pseudocode
+
+```
+X and Y be two given sequences
+Initialize a table LCS of dimension X.length * Y.length
+X.label = X
+Y.label = Y
+LCS[0][] = 0
+LCS[][0] = 0
+Start from LCS[1][1]
+Compare X[i] and Y[j]
+    If X[i] = Y[j]
+        LCS[i][j] = 1 + LCS[i-1, j-1]
+        Point an arrow to LCS[i][j]
+    Else
+        LCS[i][j] = max(LCS[i-1][j], LCS[i][j-1])
+        Point an arrow to max(LCS[i-1][j], LCS[i][j-1])
+```
 
 ## References
 

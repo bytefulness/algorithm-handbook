@@ -2,9 +2,9 @@
 title: "Topological Sorting"
 algorithmUrl: "https://github.com/eakyel/javascript-algorithms/blob/main/topologicalSort.js"
 category: "Decrease And Conquer"
+timeComplexity:
+  normal: O(V+E)
 ---
-
-# Topological Sorting
 
 In the field of computer science, a topological sort or
 topological ordering of a directed graph is a linear ordering
@@ -54,6 +54,38 @@ Other application is **dependency resolution**. Each vertex is a package
 and each edge is a dependency of package `a` on package 'b'. Then topological
 sorting will provide a sequence of installing dependencies in a way that every
 next dependency has its dependent packages to be installed in prior.
+
+## Pseduocode
+
+```
+topologicalSort()
+
+For(vertex=0; vertex<inputSize; vertex++)
+
+  Find indegree[vertex]
+
+while(node with in-degree zero exists)
+
+{
+
+Find vertex U with in-degree = 0
+
+Remove U and all its edges (U, V) from the graph.
+
+For vertices where edges connected to them were removed.
+
+    in-degree[vertex]=in-degree[vertex]-1
+
+)
+
+if(elements sorted = all elements)
+
+    Return or Print nodes in topologically sorted order
+
+Else
+
+    Return null or Print no topological ordering exists
+```
 
 ## References
 
