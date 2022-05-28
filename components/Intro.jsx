@@ -13,8 +13,8 @@ export default function Intro() {
       </p>
 
       <p className="text-xl md:text-2xl md:leading-9 font-light text-gray-500 mb-4">
-        This project was developed as an Algorithm Design and Analysis course
-        term project. I would like to thank Vahide Bulut for giving me the
+        This project was developed as an Algorithm Design Principles Course term
+        project. I would like to thank Vahide Bulut for giving me the
         opportunity to develop this project.
       </p>
     </section>
