@@ -10,7 +10,7 @@
 }
 
 .markdown img {
-  @apply mx-auto max-w-xl;
+  @apply mx-auto w-full max-w-xl;
 }
 
 .markdown h2 {
